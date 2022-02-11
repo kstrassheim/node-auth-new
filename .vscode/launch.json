@@ -3,6 +3,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Attach to Chrome Debug",
+      "port": 9223,
+      "request": "attach",
+      "type": "pwa-chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+
+    {
       "name": "ng serve",
       "type": "pwa-chrome",
       "request": "launch",
